@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS RESET EM CIMA*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #312e38;
+  color: #fff;
+}
+
+.header-container {
+  width: 100%;
+  background-color: #232129;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #232129;
+  height: 100px;
+  display: flex;
+
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.nav-list {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.link:hover {
+  background-color: #b076af;
+  border-radius: 50px;
+}
+
+.cl-logo {
+  font-family: "Courgette", cursive, "Roboto", sans-serif;
+  color: #ffa6fb;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.icon {
+  padding: 0 10px;
+}
+
+.svg {
+  width: 24px;
+  height: 24px;
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  /* vai dar uma escurecida no hover dos botões e dos links: */
+  filter: brightness(0.9);
+}
