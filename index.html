@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- MENU NAV -->
     <div class="header-container">
       <header>
         <nav>
@@ -24,7 +25,7 @@
                   <a class="link" href="/"> About Me </a>
                 </li>
                 <li>
-                  <a class="link" href="/"> Skills </a>
+                  <a class="link" href="#skills"> Skills </a>
                 </li>
                 <li>
                   <a class="link" href="/"> Projects </a>
@@ -39,16 +40,24 @@
               <ul class="icons-list">
                 <li>
                   <a
-                    class="icon"
+                    class="icon-header"
                     href="https://github.com/CarolLimeres"
                     target="_blank"
                   >
-                    <img class="svg" src="/assets/github.svg" alt="" />
+                    <img
+                      class="svg"
+                      src="/assets//menu-nav/github.svg"
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a class="icon" href="/">
-                    <img class="svg" src="/assets/linkedin.svg" alt="" />
+                  <a class="icon-header" href="/">
+                    <img
+                      class="svg"
+                      src="/assets/menu-nav/linkedin.svg"
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>
@@ -58,29 +67,77 @@
       </header>
     </div>
 
+    <!-- ABOUT ME -->
     <div class="about-container">
-      <div class="text-button-container">
-        <div class="front-title-container">Front-End Developer</div>
-        <div class="name-container">Carolina Limeres</div>
-        <div class="text-container">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          praesentium ipsum minus! Eum aut voluptatum adipisci voluptates. Saepe
-          laboriosam adipisci distinctio, perferendis excepturi nihil
-          accusantium eius amet fugiat consequuntur. Officiis.
+      <section class="section-about">
+        <div class="text-button-container">
+          <div class="front-title-container">Front-End Developer</div>
+          <div class="name-container">Carolina Limeres</div>
+          <div class="text-container">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            praesentium ipsum minus! Eum aut voluptatum adipisci voluptates.
+            Saepe laboriosam adipisci distinctio, perferendis excepturi nihil
+            accusantium eius amet fugiat consequuntur. Officiis.
+          </div>
+          <div class="button-container">
+            <button class="button-download">
+              Download CV
+              <img
+                class="png-download"
+                src="/assets//about-me/download-icon.png"
+                alt=""
+              />
+            </button>
+          </div>
         </div>
-        <div class="button-container">
-          <button class="button-download">
-            Download CV
-            <img class="png-download" src="/assets/download-icon.png" alt="" />
-          </button>
+        <div class="image-container">
+          <img
+            class="image-carolina"
+            src="/assets/about-me/Carolina.png"
+            alt=""
+          />
+          <div class="ellipse-container">
+            <img class="ellipse" src="/assets/about-me/ellipse.png" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="image-container">
-        <img class="image-carolina" src="/assets/Carolina.png" alt="" />
-        <div class="ellipse-container">
-          <img class="ellipse" src="/assets/ellipse.png" alt="" />
+      </section>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills" class="skills-container">
+      <section class="skills-section">
+        <div class="title-skills">Skills</div>
+        <div class="icons-skills-container">
+          <div class="html-icon-container">
+            <img class="icon-skills" src="/assets/skills/html.svg" alt="" />
+            HTML
+          </div>
+          <div class="css-icon-container">
+            <img class="icon-skills" src="/assets/skills/css.svg" alt="" />
+            CSS
+          </div>
+          <div class="javascript-icon-container">
+            <img
+              class="icon-skills"
+              src="/assets/skills/javascript.svg"
+              alt=""
+            />
+            JavaScript
+          </div>
+          <div class="angular-icon-container">
+            <img class="icon-skills" src="/assets/skills/angular.svg" alt="" />
+            Angular
+          </div>
+          <div class="react-icon-container">
+            <img
+              class="icon-skills react"
+              src="/assets/skills/react.svg"
+              alt=""
+            />
+            React
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   </body>
 </html>
