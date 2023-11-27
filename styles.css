@@ -21,6 +21,19 @@ body {
   color: #fff;
 }
 
+button,
+a {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  /* vai dar uma escurecida no hover dos botões e dos links: */
+  filter: brightness(0.9);
+}
+
+/* ESTILOS GERAIS EM CIMA */
+
 .header-container {
   width: 100%;
   background-color: #232129;
@@ -30,7 +43,7 @@ body {
 }
 
 header {
-  background-color: #232129;
+  /* background-color: #232129; */
   height: 100px;
   display: flex;
 
@@ -75,13 +88,71 @@ nav {
   height: 24px;
 }
 
-button,
-a {
-  cursor: pointer;
-  transition: 0.2s;
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin-top: 100px;
 }
 
-button:hover {
-  /* vai dar uma escurecida no hover dos botões e dos links: */
-  filter: brightness(0.9);
+.front-title-container {
+  margin-bottom: 20px;
+  color: #ffa6fb;
+  font-size: 28px;
+}
+
+.name-container {
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+.text-container {
+  max-width: 550px;
+  font-size: 20px;
+
+  margin-bottom: 54px;
+}
+
+.button-download {
+  background-color: #d08ace;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  width: 200px;
+  height: 63px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.png-download {
+  width: 20px;
+  height: 20px;
+  /* VER SE É CERTO ESSE MARGIN: */
+  margin-bottom: 4px;
+}
+
+.image-carolina {
+  max-width: 300px;
+  height: 300px;
+  /* border: 3px solid #ffa6fb; */
+  /* border-radius: 500px; */
+}
+
+.image-container {
+  position: relative;
+}
+
+.ellipse {
+  max-width: 320px;
+  height: 320px;
+  position: absolute;
+  right: -10px;
+  bottom: -6px;
 }
