@@ -32,6 +32,21 @@ button:hover {
   filter: brightness(0.9);
 }
 
+.button {
+  background-color: #d08ace;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  width: 200px;
+  height: 63px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 /* ESTILOS GERAIS EM CIMA */
 
 /* MENU NAV BAR */
@@ -102,6 +117,7 @@ nav {
   /* gap: 50px; */
 
   margin-top: 200px;
+  margin-bottom: 120px;
 }
 
 .section-about {
@@ -129,21 +145,6 @@ nav {
   font-size: 20px;
 
   margin-bottom: 54px;
-}
-
-.button-download {
-  background-color: #d08ace;
-  color: #fff;
-  border: none;
-  font-size: 18px;
-  width: 200px;
-  height: 63px;
-  border-radius: 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
 
 .png-download {
@@ -174,7 +175,6 @@ nav {
 
 /* SKILLS */
 .skills-container {
-  margin-top: 100px;
   width: 100%;
   background-color: #232129;
   display: flex;
@@ -183,22 +183,25 @@ nav {
   align-items: center;
 }
 
-.section-about {
+.skills-section {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1200px;
 }
 
 .title-skills {
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 48px;
   color: #fff;
+  margin-bottom: 100px;
 }
 
 .icons-skills-container {
-  margin-top: 100px;
+  /* margin-top: 100px; */
+  margin-bottom: 150px;
   display: flex;
   flex-wrap: wrap;
   gap: 90px;
@@ -219,4 +222,100 @@ nav {
   margin-bottom: 20px;
   width: 90px;
   height: 90px;
+}
+
+/* PROJECTS */
+.projects-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.my-projects {
+  margin-top: 120px;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.all-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+
+  margin-bottom: 120px;
+}
+
+.image-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* COMO TA FUNCIONANDO SEM POSITION RELATIVE???? */
+  /* position: relative; */
+}
+
+.image-project {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 20px;
+}
+
+.title-project {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description-project {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+/* PQ AS PROPRIEDADES DE LINK NAO FUNCIONAM DENTRO DO RETANGULO???? */
+.link-github:hover {
+  text-decoration: underline;
+}
+
+.link-github {
+  color: #ffa6fb;
+}
+
+.rectangle-container {
+  position: absolute;
+  /* left: -32px;
+  top: 8px; */
+}
+
+.rectangle-svg {
+  width: 330px;
+  height: 430px;
+}
+
+.button-view-container {
+  position: relative;
+}
+
+.ellipse-view-more {
+  width: 20px;
+  height: 20px;
+}
+
+.plus-view-more {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 48px;
 }
