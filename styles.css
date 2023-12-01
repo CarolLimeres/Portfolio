@@ -21,6 +21,11 @@ body {
   color: #fff;
 }
 
+textarea,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
 button,
 a {
   cursor: pointer;
@@ -117,7 +122,7 @@ nav {
   /* gap: 50px; */
 
   margin-top: 200px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .section-about {
@@ -255,7 +260,7 @@ nav {
   justify-content: center;
   gap: 200px;
 
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .image-description-container {
@@ -318,4 +323,93 @@ nav {
   height: 10px;
   position: absolute;
   right: 48px;
+}
+
+/* CONTACT ME */
+.contact-container {
+  width: 100%;
+  background-color: #232129;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 120px; */
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contact-title-svg-container {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.contact-me-title {
+  margin-top: 120px;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-email-container {
+  width: 100%;
+  display: flex;
+  gap: 70px;
+  margin-bottom: 80px;
+}
+
+.input-name,
+.input-email {
+  color: #fff;
+  background-color: #232129;
+  border: 1px solid #ffa6fb;
+  border-radius: 10px;
+
+  width: 350px;
+  height: 80px;
+
+  padding: 40px 50px;
+
+  font-size: 20px;
+}
+
+.textarea-message {
+  color: #fff;
+  background-color: #232129;
+  border: 1px solid #ffa6fb;
+  border-radius: 10px;
+
+  padding: 40px 50px;
+
+  width: 770px;
+
+  font-size: 20px;
+
+  margin-bottom: 80px;
+}
+
+.button-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-svg {
+  width: 22px;
+  height: 22px;
+  margin-left: -4px;
 }
