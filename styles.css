@@ -332,7 +332,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 120px; */
+  margin-bottom: 70px;
 }
 
 .contact-section {
@@ -342,6 +342,7 @@ nav {
   align-items: center;
   width: 100%;
   max-width: 1200px;
+  margin-bottom: 140px;
 }
 
 .contact-title-svg-container {
@@ -412,4 +413,21 @@ nav {
   width: 22px;
   height: 22px;
   margin-left: -4px;
+}
+
+/* FOOTER */
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 50px;
 }
